@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"PaymentsPlugin\"><param name=\"ios-package\" value=\"PaymentsPlugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-inapppurchase": {
+      "PACKAGE_NAME": "com.phonegap.myapp"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "file": "plugins/cordova-plugin-inapppurchase/www/index-ios.js",
+      "id": "cordova-plugin-inapppurchase.PaymentsPlugin",
+      "pluginId": "cordova-plugin-inapppurchase",
+      "clobbers": [
+        "inAppPurchase"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-inapppurchase": "1.1.0"
+  }
+}

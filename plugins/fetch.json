@@ -1,0 +1,10 @@
+{
+  "cordova-plugin-inapppurchase": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-inapppurchase"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
